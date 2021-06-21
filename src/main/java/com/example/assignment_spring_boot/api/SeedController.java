@@ -24,7 +24,7 @@ public class SeedController {
         account1.setId("ACC001");
         account1.setUsername("ACC001");
         account1.setFullName("Hoang Huy Truong");
-        account1.setPasswordHash("awiufgawofaofafnann");
+        account1.setPasswordHash("123456");
         account1.setRole(1);
         account1.setStatus(1);
         accountRepository.save(account1);
@@ -33,7 +33,7 @@ public class SeedController {
         account2.setId("ACC002");
         account2.setUsername("ACC002");
         account2.setFullName("Dao Hong Luyen");
-        account2.setPasswordHash("awiufgawofaofafnann");
+        account2.setPasswordHash("123456");
         account2.setRole(2);
         account2.setStatus(1);
         accountRepository.save(account2);
@@ -42,7 +42,7 @@ public class SeedController {
         account3.setId("ACC003");
         account3.setUsername("ACC003");
         account3.setFullName("Truong Huy Hoang");
-        account3.setPasswordHash("awiufgawofaofafnann");
+        account3.setPasswordHash("123456");
         account3.setRole(1);
         account3.setStatus(0);
         accountRepository.save(account3);
@@ -51,7 +51,7 @@ public class SeedController {
         account4.setId("ACC004");
         account4.setUsername("ACC004");
         account4.setFullName("Hong Dao Luyen");
-        account4.setPasswordHash("awiufgawofaofafnann");
+        account4.setPasswordHash("123456");
         account4.setRole(2);
         account4.setStatus(0);
         accountRepository.save(account4);
